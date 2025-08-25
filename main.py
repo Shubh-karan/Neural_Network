@@ -3,7 +3,7 @@ def step(x):
 
 #writting basic perceptron code for AND GATE as it fits on it
 def perceptron(x1,w1,x2,w2,b):
-    y = x1*w1+x2*w2+b
+    y = ((x1*w1)+(x2*w2)+b)
     return step(y)
 
 #providing optimal values
